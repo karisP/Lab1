@@ -76,6 +76,7 @@ p{
     width: 400px;
     height: 400px;
     position: absolute;
+    right: 25%;
 
 }
 .peach{
@@ -83,17 +84,19 @@ p{
     width: 300px;
     height: 300px;
     position: absolute;
-    left: 35%;
-    top: 85%;
+    right: 15%;
+    top: 90%;
     /* transform: translateY(-50%); */
 }
 .purple{
     background-color:rgba(207, 130, 213, 0.6);
     width: 200px;
     height: 200px;
+    margin:15px;
     position: absolute;
-    left: 40%;
-    top: 30%;
+    right:15px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /*footer*/
@@ -103,6 +106,7 @@ button{
     position: fixed;
     bottom:0%;
     left:50%;
+    transform: translateX(-50%);
     background-color:#000;
     border:none;
     width: 100px;
